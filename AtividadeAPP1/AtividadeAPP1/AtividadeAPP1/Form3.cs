@@ -47,5 +47,10 @@ namespace AtividadeAPP1
             this.Hide();
             menu.Show();
         }
+
+        private void lblvel_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

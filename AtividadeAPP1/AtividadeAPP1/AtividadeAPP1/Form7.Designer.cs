@@ -40,10 +40,11 @@
             // lblraio
             // 
             this.lblraio.AutoSize = true;
-            this.lblraio.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblraio.Location = new System.Drawing.Point(95, 59);
+            this.lblraio.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblraio.Location = new System.Drawing.Point(127, 73);
+            this.lblraio.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblraio.Name = "lblraio";
-            this.lblraio.Size = new System.Drawing.Size(241, 23);
+            this.lblraio.Size = new System.Drawing.Size(370, 29);
             this.lblraio.TabIndex = 0;
             this.lblraio.Text = "Digite o raio da circunferência:";
             this.lblraio.Click += new System.EventHandler(this.lblraio_Click);
@@ -51,36 +52,40 @@
             // lblresult
             // 
             this.lblresult.AutoSize = true;
-            this.lblresult.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblresult.Location = new System.Drawing.Point(95, 105);
+            this.lblresult.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblresult.Location = new System.Drawing.Point(365, 129);
+            this.lblresult.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblresult.Name = "lblresult";
-            this.lblresult.Size = new System.Drawing.Size(76, 23);
+            this.lblresult.Size = new System.Drawing.Size(117, 29);
             this.lblresult.TabIndex = 1;
             this.lblresult.Text = "A área é:";
             // 
             // txtraio
             // 
-            this.txtraio.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtraio.Location = new System.Drawing.Point(366, 56);
+            this.txtraio.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtraio.Location = new System.Drawing.Point(537, 70);
+            this.txtraio.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtraio.Name = "txtraio";
-            this.txtraio.Size = new System.Drawing.Size(100, 29);
+            this.txtraio.Size = new System.Drawing.Size(132, 34);
             this.txtraio.TabIndex = 2;
             // 
             // txtresult
             // 
-            this.txtresult.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtresult.Location = new System.Drawing.Point(366, 105);
+            this.txtresult.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtresult.Location = new System.Drawing.Point(537, 129);
+            this.txtresult.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtresult.Name = "txtresult";
             this.txtresult.ReadOnly = true;
-            this.txtresult.Size = new System.Drawing.Size(100, 29);
+            this.txtresult.Size = new System.Drawing.Size(132, 34);
             this.txtresult.TabIndex = 3;
             // 
             // btncalcular
             // 
-            this.btncalcular.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btncalcular.Location = new System.Drawing.Point(117, 251);
+            this.btncalcular.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btncalcular.Location = new System.Drawing.Point(156, 309);
+            this.btncalcular.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btncalcular.Name = "btncalcular";
-            this.btncalcular.Size = new System.Drawing.Size(102, 37);
+            this.btncalcular.Size = new System.Drawing.Size(136, 46);
             this.btncalcular.TabIndex = 4;
             this.btncalcular.Text = "Calcular";
             this.btncalcular.UseVisualStyleBackColor = true;
@@ -88,10 +93,11 @@
             // 
             // btnlimpar
             // 
-            this.btnlimpar.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnlimpar.Location = new System.Drawing.Point(343, 251);
+            this.btnlimpar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnlimpar.Location = new System.Drawing.Point(439, 309);
+            this.btnlimpar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnlimpar.Name = "btnlimpar";
-            this.btnlimpar.Size = new System.Drawing.Size(75, 37);
+            this.btnlimpar.Size = new System.Drawing.Size(131, 46);
             this.btnlimpar.TabIndex = 5;
             this.btnlimpar.Text = "Limpar";
             this.btnlimpar.UseVisualStyleBackColor = true;
@@ -99,10 +105,11 @@
             // 
             // btnvoltar
             // 
-            this.btnvoltar.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnvoltar.Location = new System.Drawing.Point(565, 251);
+            this.btnvoltar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnvoltar.Location = new System.Drawing.Point(753, 309);
+            this.btnvoltar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnvoltar.Name = "btnvoltar";
-            this.btnvoltar.Size = new System.Drawing.Size(75, 37);
+            this.btnvoltar.Size = new System.Drawing.Size(100, 46);
             this.btnvoltar.TabIndex = 6;
             this.btnvoltar.Text = "Voltar";
             this.btnvoltar.UseVisualStyleBackColor = true;
@@ -110,9 +117,9 @@
             // 
             // frmarea
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.ControlBox = false;
             this.Controls.Add(this.btnvoltar);
             this.Controls.Add(this.btnlimpar);
@@ -121,6 +128,7 @@
             this.Controls.Add(this.txtraio);
             this.Controls.Add(this.lblresult);
             this.Controls.Add(this.lblraio);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "frmarea";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Área do circulo";

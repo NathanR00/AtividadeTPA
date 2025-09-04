@@ -41,56 +41,62 @@
             // 
             // txtreal
             // 
-            this.txtreal.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtreal.Location = new System.Drawing.Point(323, 71);
+            this.txtreal.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtreal.Location = new System.Drawing.Point(577, 87);
+            this.txtreal.Margin = new System.Windows.Forms.Padding(4);
             this.txtreal.Name = "txtreal";
-            this.txtreal.Size = new System.Drawing.Size(100, 29);
+            this.txtreal.Size = new System.Drawing.Size(172, 34);
             this.txtreal.TabIndex = 0;
             // 
             // txtdolar
             // 
-            this.txtdolar.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtdolar.Location = new System.Drawing.Point(323, 126);
+            this.txtdolar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtdolar.Location = new System.Drawing.Point(577, 155);
+            this.txtdolar.Margin = new System.Windows.Forms.Padding(4);
             this.txtdolar.Name = "txtdolar";
-            this.txtdolar.Size = new System.Drawing.Size(100, 29);
+            this.txtdolar.Size = new System.Drawing.Size(168, 34);
             this.txtdolar.TabIndex = 1;
             // 
             // txtresult
             // 
-            this.txtresult.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtresult.Location = new System.Drawing.Point(323, 193);
+            this.txtresult.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtresult.Location = new System.Drawing.Point(425, 238);
+            this.txtresult.Margin = new System.Windows.Forms.Padding(4);
             this.txtresult.Name = "txtresult";
             this.txtresult.ReadOnly = true;
-            this.txtresult.Size = new System.Drawing.Size(100, 29);
+            this.txtresult.Size = new System.Drawing.Size(132, 34);
             this.txtresult.TabIndex = 2;
             // 
             // lblreal
             // 
             this.lblreal.AutoSize = true;
-            this.lblreal.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblreal.Location = new System.Drawing.Point(102, 71);
+            this.lblreal.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblreal.Location = new System.Drawing.Point(136, 87);
+            this.lblreal.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblreal.Name = "lblreal";
-            this.lblreal.Size = new System.Drawing.Size(201, 23);
+            this.lblreal.Size = new System.Drawing.Size(312, 29);
             this.lblreal.TabIndex = 3;
             this.lblreal.Text = "Digite um valor em Reais:";
             // 
             // lbldolar
             // 
             this.lbldolar.AutoSize = true;
-            this.lbldolar.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbldolar.Location = new System.Drawing.Point(102, 126);
+            this.lbldolar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbldolar.Location = new System.Drawing.Point(136, 155);
+            this.lbldolar.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbldolar.Name = "lbldolar";
-            this.lbldolar.Size = new System.Drawing.Size(223, 23);
+            this.lbldolar.Size = new System.Drawing.Size(345, 29);
             this.lbldolar.TabIndex = 4;
             this.lbldolar.Text = "Digite o valor atual do Dólar:";
             // 
             // lblresult
             // 
             this.lblresult.AutoSize = true;
-            this.lblresult.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblresult.Location = new System.Drawing.Point(102, 193);
+            this.lblresult.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblresult.Location = new System.Drawing.Point(136, 238);
+            this.lblresult.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblresult.Name = "lblresult";
-            this.lblresult.Size = new System.Drawing.Size(172, 23);
+            this.lblresult.Size = new System.Drawing.Size(259, 29);
             this.lblresult.TabIndex = 5;
             this.lblresult.Text = "Seu valor convertido:";
             this.lblresult.Click += new System.EventHandler(this.lblresult_Click);
@@ -98,10 +104,11 @@
             // btncalcular
             // 
             this.btncalcular.AutoSize = true;
-            this.btncalcular.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btncalcular.Location = new System.Drawing.Point(105, 369);
+            this.btncalcular.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btncalcular.Location = new System.Drawing.Point(299, 321);
+            this.btncalcular.Margin = new System.Windows.Forms.Padding(4);
             this.btncalcular.Name = "btncalcular";
-            this.btncalcular.Size = new System.Drawing.Size(82, 33);
+            this.btncalcular.Size = new System.Drawing.Size(119, 41);
             this.btncalcular.TabIndex = 6;
             this.btncalcular.Text = "Calcular";
             this.btncalcular.UseVisualStyleBackColor = true;
@@ -110,10 +117,11 @@
             // btnlimpar
             // 
             this.btnlimpar.AutoSize = true;
-            this.btnlimpar.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnlimpar.Location = new System.Drawing.Point(221, 369);
+            this.btnlimpar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnlimpar.Location = new System.Drawing.Point(454, 321);
+            this.btnlimpar.Margin = new System.Windows.Forms.Padding(4);
             this.btnlimpar.Name = "btnlimpar";
-            this.btnlimpar.Size = new System.Drawing.Size(75, 33);
+            this.btnlimpar.Size = new System.Drawing.Size(103, 41);
             this.btnlimpar.TabIndex = 7;
             this.btnlimpar.Text = "Limpar";
             this.btnlimpar.UseVisualStyleBackColor = true;
@@ -122,10 +130,11 @@
             // btnvoltar
             // 
             this.btnvoltar.AutoSize = true;
-            this.btnvoltar.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnvoltar.Location = new System.Drawing.Point(333, 369);
+            this.btnvoltar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnvoltar.Location = new System.Drawing.Point(603, 321);
+            this.btnvoltar.Margin = new System.Windows.Forms.Padding(4);
             this.btnvoltar.Name = "btnvoltar";
-            this.btnvoltar.Size = new System.Drawing.Size(75, 33);
+            this.btnvoltar.Size = new System.Drawing.Size(100, 41);
             this.btnvoltar.TabIndex = 8;
             this.btnvoltar.Text = "Voltar";
             this.btnvoltar.UseVisualStyleBackColor = true;
@@ -133,9 +142,9 @@
             // 
             // frmdolares
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.ControlBox = false;
             this.Controls.Add(this.btnvoltar);
             this.Controls.Add(this.btnlimpar);
@@ -146,6 +155,7 @@
             this.Controls.Add(this.txtresult);
             this.Controls.Add(this.txtdolar);
             this.Controls.Add(this.txtreal);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmdolares";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Converter Reais para Dólares";

@@ -71,6 +71,7 @@
             this.txtresultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.txtresultado.Location = new System.Drawing.Point(259, 318);
             this.txtresultado.Name = "txtresultado";
+            this.txtresultado.ReadOnly = true;
             this.txtresultado.Size = new System.Drawing.Size(132, 26);
             this.txtresultado.TabIndex = 30;
             // 
@@ -79,6 +80,7 @@
             this.txtnomefinal.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.txtnomefinal.Location = new System.Drawing.Point(343, 286);
             this.txtnomefinal.Name = "txtnomefinal";
+            this.txtnomefinal.ReadOnly = true;
             this.txtnomefinal.Size = new System.Drawing.Size(337, 26);
             this.txtnomefinal.TabIndex = 29;
             // 

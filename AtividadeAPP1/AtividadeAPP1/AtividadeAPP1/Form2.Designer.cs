@@ -40,10 +40,10 @@
             // lblcelsius
             // 
             this.lblcelsius.AutoSize = true;
-            this.lblcelsius.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblcelsius.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblcelsius.Location = new System.Drawing.Point(165, 62);
             this.lblcelsius.Name = "lblcelsius";
-            this.lblcelsius.Size = new System.Drawing.Size(268, 23);
+            this.lblcelsius.Size = new System.Drawing.Size(329, 24);
             this.lblcelsius.TabIndex = 0;
             this.lblcelsius.Text = "Digite o número em graus celsius:";
             this.lblcelsius.Click += new System.EventHandler(this.lblcelsius_Click);
@@ -51,25 +51,25 @@
             // lblfahrenheit
             // 
             this.lblfahrenheit.AutoSize = true;
-            this.lblfahrenheit.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblfahrenheit.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblfahrenheit.Location = new System.Drawing.Point(165, 114);
             this.lblfahrenheit.Name = "lblfahrenheit";
-            this.lblfahrenheit.Size = new System.Drawing.Size(310, 23);
+            this.lblfahrenheit.Size = new System.Drawing.Size(380, 24);
             this.lblfahrenheit.TabIndex = 2;
             this.lblfahrenheit.Text = "Temperatura convertida em Fahrenheit:";
             // 
             // txtcelsius
             // 
-            this.txtcelsius.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtcelsius.Location = new System.Drawing.Point(495, 64);
+            this.txtcelsius.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtcelsius.Location = new System.Drawing.Point(591, 62);
             this.txtcelsius.Name = "txtcelsius";
             this.txtcelsius.Size = new System.Drawing.Size(135, 29);
             this.txtcelsius.TabIndex = 4;
             // 
             // txtfahrenheit
             // 
-            this.txtfahrenheit.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtfahrenheit.Location = new System.Drawing.Point(495, 114);
+            this.txtfahrenheit.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtfahrenheit.Location = new System.Drawing.Point(591, 111);
             this.txtfahrenheit.Name = "txtfahrenheit";
             this.txtfahrenheit.ReadOnly = true;
             this.txtfahrenheit.Size = new System.Drawing.Size(135, 29);
@@ -77,10 +77,10 @@
             // 
             // btncalcular
             // 
-            this.btncalcular.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btncalcular.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btncalcular.Location = new System.Drawing.Point(169, 214);
             this.btncalcular.Name = "btncalcular";
-            this.btncalcular.Size = new System.Drawing.Size(92, 32);
+            this.btncalcular.Size = new System.Drawing.Size(116, 32);
             this.btncalcular.TabIndex = 6;
             this.btncalcular.Text = "Calcular";
             this.btncalcular.UseVisualStyleBackColor = true;
@@ -88,10 +88,10 @@
             // 
             // btnlimpar
             // 
-            this.btnlimpar.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnlimpar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnlimpar.Location = new System.Drawing.Point(340, 214);
             this.btnlimpar.Name = "btnlimpar";
-            this.btnlimpar.Size = new System.Drawing.Size(75, 32);
+            this.btnlimpar.Size = new System.Drawing.Size(89, 32);
             this.btnlimpar.TabIndex = 7;
             this.btnlimpar.Text = "Limpar";
             this.btnlimpar.UseVisualStyleBackColor = true;
@@ -99,7 +99,7 @@
             // 
             // btnvoltar
             // 
-            this.btnvoltar.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnvoltar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnvoltar.Location = new System.Drawing.Point(526, 214);
             this.btnvoltar.Name = "btnvoltar";
             this.btnvoltar.Size = new System.Drawing.Size(75, 32);
