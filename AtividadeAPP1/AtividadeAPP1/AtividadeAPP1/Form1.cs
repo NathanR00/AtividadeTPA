@@ -99,5 +99,12 @@ namespace AtividadeAPP1
             frmimc imc = new frmimc();
             imc.Show();
         }
+
+        private void tsminotas_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            frmnotas notas = new frmnotas();
+            notas.Show();
+        }
     }
 }

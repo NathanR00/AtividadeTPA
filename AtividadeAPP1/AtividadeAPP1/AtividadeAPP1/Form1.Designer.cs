@@ -42,6 +42,7 @@
             this.tsmiimc = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmisair = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip2 = new System.Windows.Forms.MenuStrip();
+            this.tsminotas = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -68,7 +69,8 @@
             this.tsmilivros,
             this.tsmisalarios,
             this.tsmicasa,
-            this.tsmiimc});
+            this.tsmiimc,
+            this.tsminotas});
             this.tsmidolares.Name = "tsmidolares";
             this.tsmidolares.Size = new System.Drawing.Size(76, 20);
             this.tsmidolares.Text = "Programas";
@@ -158,6 +160,13 @@
             this.menuStrip2.TabIndex = 1;
             this.menuStrip2.Text = "menuStrip2";
             // 
+            // tsminotas
+            // 
+            this.tsminotas.Name = "tsminotas";
+            this.tsminotas.Size = new System.Drawing.Size(194, 22);
+            this.tsminotas.Text = "Notas";
+            this.tsminotas.Click += new System.EventHandler(this.tsminotas_Click);
+            // 
             // frmmenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -193,6 +202,7 @@
         private System.Windows.Forms.ToolStripMenuItem tsmisalarios;
         private System.Windows.Forms.ToolStripMenuItem tsmicasa;
         private System.Windows.Forms.ToolStripMenuItem tsmiimc;
+        private System.Windows.Forms.ToolStripMenuItem tsminotas;
     }
 }
 
